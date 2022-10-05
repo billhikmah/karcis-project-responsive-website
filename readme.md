@@ -43,7 +43,7 @@ Karcis Project is a website for purchasing event tickets. This website is built 
 <h2>Related Documentation</h2>
 
 - Server (Backend)<br>
-  Server documentation can be accessed via [Postman](https://documenter.getpostman.com/view/20723287/UyrEguSx). The backend has been deployed to [Vercel](https://www.vercel.com) and the assets have been uploaded to [Cloudinary](https://www.cloudinary.app/).
+  Server documentation can be accessed via [Postman](https://documenter.getpostman.com/view/20723287/VV51tET9). The backend has been deployed to [Vercel](https://www.vercel.com) and the assets have been uploaded to [Cloudinary](https://www.cloudinary.app/).
 
 ## License
 
