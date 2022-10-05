@@ -1,6 +1,6 @@
 <h1 align='center'>Karcis Project</h1>
   <p align="center">
-    <a href="link_deploy">View Demo</a>
+    <a href="https://karcis-project-website.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/billhikmah/karcis-project-responsive-website/issues">Report Bug</a>
     ·
@@ -31,9 +31,14 @@ Karcis Project is a website for purchasing event tickets. This website is built 
    ```
 2. Open the file using [VSCode](https://code.visualstudio.com/download)
 
-<h2>Deploy</h2>
+<h2>Demo</h2>
 
-1. [Home](https://karcis-responsive-website.netlify.app/)
+1. [Home](https://karcis-project-website.netlify.app)
+1. [Sign In](https://karcis-project-website.netlify.app/signin)
+1. [Sign Up](https://karcis-project-website.netlify.app/signup)
+1. [Detail](https://karcis-project-website.netlify.app/detail)
+1. [Booking](https://karcis-project-website.netlify.app/booking)
+1. [Payment](https://karcis-project-website.netlify.app/payment)
 
 <h2>Related Documentation</h2>
 
@@ -42,4 +47,4 @@ Karcis Project is a website for purchasing event tickets. This website is built 
 
 ## License
 
-© [Bill Hikmah](https://github.com/billhikmah/)
+© [Bill Hikmah 2022](https://github.com/billhikmah/)
