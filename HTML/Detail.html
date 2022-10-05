@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Event Detail Page" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/Detail.css" />
+    <title>Event</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg px-4">
+      <div class="container-fluid navbar__container">
+        <a class="navbar-brand navbar__item" href="#">
+          <div class="navbar__title">
+            <img
+              src="../Assets/Vectors/logo-1.png"
+              alt="logo"
+              class="navbar__logo"
+            />
+            <div>Kar<span class="navbar__title-detail">cis</span></div>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav mx-auto mb-2 mb-lg-0 navbar__center">
+            <li class="nav-item navbar__link">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item navbar__link">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Create Event</a
+              >
+            </li>
+            <li class="nav-item navbar__link">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Location</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav ms-auto mb-2 mb-lg-0">
+            <button class="btn navbar__button-signin" type="submit">
+              Sign In
+            </button>
+            <button class="btn navbar__button-signup" type="submit">
+              Sign Up
+            </button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="main row">
+      <div class="col col-12 col-lg-6 main__left-side">
+        <div class="main__image-container">
+          <img
+            src="../Assets/Images/picture-3.png"
+            alt="movie poster"
+            class="main__image"
+          />
+        </div>
+        <div class="btn main__add-wishlist">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-heart"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+            />
+          </svg>
+          <span class="main__add-wishlist-text">Add to Wishlist</span>
+        </div>
+      </div>
+      <div class="col col-12 col-lg-6 main__right-side">
+        <div class="col main__title">Sights & Sounds Exhibition</div>
+        <div class="row main__icon-detail-container">
+          <div class="col main__icon-detail">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-geo-alt main__icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"
+              />
+              <path
+                d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+              />
+            </svg>
+            Jakarta, Indonesia
+          </div>
+          <div class="col main__icon-detail">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-clock main__icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+              />
+              <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+              />
+            </svg>
+            Wed, 15 Nov, 4:00 PM
+          </div>
+        </div>
+        <div class="col main__attendees">Attendees</div>
+        <div class="col main__attendees-image">
+          <img src="../Assets/Images/picture-2.png" alt="viewers" />
+        </div>
+        <div class="col main__event-subtitle">Event Detail</div>
+        <div class="col main__event-desc">
+          After his controversial art exhibition "Tear and Consume" back in
+          November 2018, in which guests were invited to tear up…
+        </div>
+        <div class="col main__read-more">Read More</div>
+        <div class="col main__event-subtitle">Location</div>
+        <div class="col">
+          <img
+            src="../Assets/Images/picture-5.png"
+            alt="maps"
+            class="main__maps"
+          />
+        </div>
+        <div class="btn main__button">Buy Tickets</div>
+      </div>
+    </main>
+    <footer class="col container mx-auto my-5 footer">
+      <div class="row col-sm-12">
+        <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+          <div class="col">
+            <div class="navbar__title">
+              <img
+                src="../Assets/Vectors/logo-1.png"
+                alt="logo"
+                class="navbar__logo"
+              />
+              <div>Kar<span class="navbar__title-detail">cis</span></div>
+            </div>
+          </div>
+          <div class="col footer__title--2">Find events you love with our</div>
+          <div class="row">
+            <div class="col-1" role="button">
+              <img src="../Assets/Vectors/logo-4.png" alt="social media logo" />
+            </div>
+            <div class="col-1" role="button">
+              <img src="../Assets/Vectors/logo-5.png" alt="social media logo" />
+            </div>
+            <div class="col-1" role="button">
+              <img src="../Assets/Vectors/logo-6.png" alt="social media logo" />
+            </div>
+            <div class="col-1" role="button">
+              <img src="../Assets/Vectors/logo-7.png" alt="social media logo" />
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-2 mb-5">
+          <div class="col footer__title">Wetick</div>
+          <div class="col footer__content" role="button">About Us</div>
+          <div class="col footer__content" role="button">Features</div>
+          <div class="col footer__content" role="button">Blog</div>
+          <div class="col footer__content" role="button">Payments</div>
+          <div class="col footer__content" role="button">Mobile App</div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-2 mb-5">
+          <div class="col footer__title">Features</div>
+          <div class="col footer__content" role="button">Booking</div>
+          <div class="col footer__content" role="button">Create Event</div>
+          <div class="col footer__content" role="button">Discover</div>
+          <div class="col footer__content" role="button">Register</div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-2 mb-5">
+          <div class="col footer__title">Company</div>
+          <div class="col footer__content" role="button">Partnership</div>
+          <div class="col footer__content" role="button">Help</div>
+          <div class="col footer__content" role="button">Terms of Service</div>
+          <div class="col footer__content" role="button">Privacy Policy</div>
+          <div class="col footer__content" role="button">Sitemap</div>
+        </div>
+      </div>
+      <div class="row col-sm-12 footer__title">
+        © 2020 Karcis All Rights Reserved
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
